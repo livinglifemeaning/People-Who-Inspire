@@ -1,7 +1,6 @@
 import { useBoardContext } from "../../contexts/BoardContext";
-import { useState, useEffect } from "react";
 import PageLayout from "./PageLayout";
-import Link from "@mui/icons-material/link";
+import Link from "@mui/icons-material/Link";
 import classes from "../../styles/Pages.module.css";
 
 const ArticlesPage = () => {
@@ -14,7 +13,7 @@ const ArticlesPage = () => {
       <div className={classes.articlesBox}>
         {articles.map((article) => {
           return (
-            <a key={article.id} href={article.articleLink} target="_blank">
+            <a key={article.id} rel="noreferrer" href={article.articleLink} target="_blank">
               <div className={classes.article}>
                 <span>
                   <Link />
