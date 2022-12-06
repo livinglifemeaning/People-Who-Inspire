@@ -1,6 +1,6 @@
 import { useBoardContext } from "../../contexts/BoardContext";
 import PageLayout from "./PageLayout";
-import classes from "../../styles/Pages.module.css"
+import classes from "../../styles/Pages.module.css";
 
 const GalleryImages = () => {
   const { currentBoard } = useBoardContext();
@@ -45,12 +45,20 @@ const GalleryImages = () => {
     <>
       <div className={classes.galleryRow}>
         {ImagesRowOne.map((image) => {
-          return <img key={image.id} src={image.url} alt="" />;
+          return (
+            <picture key={image.id}>
+              <img key={image.id} src={image.url} alt="" />
+            </picture>
+          );
         })}
       </div>
       <div className={classes.galleryRow}>
         {ImagesRowTwo.map((image) => {
-          return <img key={image.id} src={image.url} alt="" />;
+          return (
+            <picture key={image.id}>
+              <img key={image.id} src={image.url} alt="" />
+            </picture>
+          );
         })}
       </div>
     </>

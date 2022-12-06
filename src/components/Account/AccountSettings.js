@@ -39,13 +39,15 @@ const AccountSettings = () => {
       <h2>Manage boards</h2>
       {boardsData.map((board) => {
         return (
-          <div className={classes.manageBoard}>
+          <div key={board.name} className={classes.manageBoard}>
             <div>
-              <img
-                className={classes.boardImage}
-                src={board.mainImage}
-                alt=""
-              />
+              <picture>
+                <img
+                  className={classes.boardImage}
+                  src={board.mainImage}
+                  alt=""
+                />
+              </picture>
               <p className={classes.boardName}>{board.name}</p>
             </div>
             <div className={classes.manageButtons}>
