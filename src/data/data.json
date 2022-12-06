@@ -22,7 +22,10 @@
         "reason": "was passionate about the plight of black folk"
       },
       { "id": "reason4", "reason": "helped me understand myself" },
-      { "id": "reason5", "reason": "taught himself how to read while in prison" }
+      {
+        "id": "reason5",
+        "reason": "taught himself how to read while in prison"
+      }
     ],
     "GalleryPage": true,
     "GalleryImages": [
@@ -72,11 +75,6 @@
       {
         "id": "video4",
         "videoLink": "https://www.youtube.com/watch?v=eWjIkhMZu7s"
-      },
-
-      {
-        "id": "video5",
-        "videoLink": "https://www.youtube.com/watch?v=k7MP_h3eQ1o"
       }
     ],
     "ArticlesPage": true,
