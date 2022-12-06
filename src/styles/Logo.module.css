@@ -1,0 +1,19 @@
+.logo {
+  font-family: var(--f-logo);
+  font-size: 1.4rem;
+}
+
+.logo.yellow {
+  color: var(--c-yellow-primary);
+}
+.logo.white {
+  color: #fff;
+}
+
+
+
+@media (min-width: 45rem) {
+  .logo {
+    font-size: 1.6rem;
+  }
+}

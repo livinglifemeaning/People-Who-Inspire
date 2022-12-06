@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lexend+Exa&family=Poppins:wght@400;700&display=swap");
+
+html {
+  --f-logo: "Fredoka One", cursive;
+  --f-accent: "Lexend Exa", sans-serif;
+  --f-body: "Poppins", sans-serif;
+  --c-dark-text: #070600;
+  --c-yellow-primary: #ffb800;
+  --c-purple-dark: #0f001b;
+  --c-purple-light: #9a85ab;
+  --c-green-dark: #031005;
+  --c-green-light: #7e9382;
+  --c-yellow-dark: #7b5900;
+  --c-red: #b22f2f;
+}
+:root {
+  color-scheme: light;
+  --home-image-box-shadow: 0px 0px 25px hsla(0, 0%, 30%, 25%);
+  --home-text: var(--c-dark-text);
+  --home-text-shadow: 0px 0px 5px hsl(0, 0%, 100%);
+  --navigation-bg: var(--c-dark-text);
+  --navigation-text: #fff;
+  --page-background: #fff;
+  --header-text: var(--c-yellow-primary);
+  --body-text: var(--c-dark-text);
+}
+
+[data-color-scheme="white"] {
+  color-scheme: light;
+  --home-image-box-shadow: 0px 0px 25px hsla(0, 0%, 30%, 25%);
+  --home-text: var(--c-dark-text);
+  --home-text-shadow: 0px 0px 5px hsl(0, 0%, 100%);
+  --navigation-bg: var(--c-dark-text);
+  --navigation-text: #fff;
+  --page-background: #fff;
+  --header-text: var(--c-yellow-primary);
+  --body-text: var(--c-dark-text);
+}
+
+[data-color-scheme="black"] {
+  color-scheme: dark;
+  --home-image-box-shadow: 0px 0px 25px hsla(0, 0%, 100%, 0.1);
+  --home-text: #fff;
+  --home-text-shadow: 0px 0px 5px hsl(0, 0%, 100%);
+  --navigation-bg: #fff;
+  --navigation-text: var(--c-dark-text);
+  --page-background: var(--c-dark-text);
+  --header-text: #fff;
+  --body-text: #fff;
+}
+[data-color-scheme="purple"] {
+  color-scheme: dark;
+  --home-image-box-shadow: 0px 0px 5px hsla(273, 18%, 60%, 0.19);
+  --home-text: #fff;
+  --home-text-shadow: 0px 0px 5px #9a85ab;
+  --navigation-bg: var(--c-purple-light);
+  --navigation-text: var(--c-purple-dark);
+  --page-background: var(--c-purple-dark);
+  --header-text: var(--c-purple-light);
+  --body-text: #fff;
+}
+
+[data-color-scheme="green"] {
+  color-scheme: dark;
+  --home-image-box-shadow: 0px 0px 25px hsla(131, 9%, 54%, 0.15);
+  --home-text: #fff;
+  --home-text-shadow: 0px 0px 5px #7e9382;
+  --navigation-bg: var(--c-green-light);
+  --navigation-text: var(--c-green-dark);
+  --page-background: var(--c-green-dark);
+  --header-text: var(--c-green-light);
+  --body-text: #fff;
+}
+
+@media (max-width: 44.9em) {
+  [data-color-scheme="purple"],
+  [data-color-scheme="green"] {
+    --navigation-text: #fff;
+  }
+}

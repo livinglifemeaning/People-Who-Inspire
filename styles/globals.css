@@ -1,26 +1,35 @@
-html,
+@import "./reset.css";
+@import "./variables.css";
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--f-body);
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 3px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--c-yellow-primary);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-yellow-dark);
+}
+
+@media (min-width: 45em) {
+  ::-webkit-scrollbar {
+    width: 14px;
   }
 }
+
+

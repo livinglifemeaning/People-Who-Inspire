@@ -1,0 +1,161 @@
+.authpage{
+ min-height: 100vh;  
+ display: flex; 
+ flex-direction: column;   
+}
+.nav {
+  background-color: var(--c-yellow-primary);
+  padding: 2rem 1.125rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.appOptions {
+  color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.appOptions li {
+  background-color: var(--c-yellow-dark);
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+  user-select: none;
+}
+
+.appOptions li:hover {
+  color: var(--c-yellow-primary);
+}
+
+.appOptions li:active {
+  scale: 0.98;
+}
+.body{
+    padding: 3rem 1.125rem; 
+    flex-grow: 1; 
+}
+.heading{
+    font-weight: 400; 
+    font-size: 2rem; 
+    line-height: 1.5em; 
+    max-width: 25ch; 
+}
+
+.heading span{
+    font-family: var(--f-logo);
+    color: var(--c-yellow-primary); 
+    font-size: 2.5rem; 
+    display: block; 
+}
+
+.heroImage{
+  border-radius: 10px; 
+  margin-top: 2rem; 
+  box-shadow: 5px 10px 30px rgba(243, 201, 32, 0.2); 
+}
+
+/* Modal */
+
+.modal{
+    position: absolute; 
+    top: 11rem; 
+    background-color: var(--c-yellow-dark);
+    padding: 1rem; 
+    border-radius: 10px; 
+    color: #fff; 
+    left: 50%; 
+    translate: -50%;
+    width: 22rem; 
+}
+
+.form{
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 1rem; 
+    
+}
+
+.label{
+    margin-bottom: .5rem; 
+}
+
+.input{
+    margin-bottom: 1rem; 
+    border: solid 2px var(--c-yellow-primary); 
+    border-radius: 5px; 
+    padding: .4rem 1rem; 
+    color: var(--c-dark-text); 
+}
+
+.formBtn{
+    color: var(--c-dark-text); 
+    background-color: var(--c-yellow-primary);
+    border: 0; 
+    padding:.5rem;  
+    border-radius: 10px; 
+    cursor: pointer; 
+    margin-top: 1rem; 
+}
+
+.googleSignIn{
+    display: flex;
+    align-items: center; 
+    gap: 1rem; 
+cursor: pointer; 
+margin-bottom: 1rem; 
+}
+
+.googleSignIn p{
+    text-decoration: underline;
+}
+
+.googleSignIn img{
+    width: 30px; 
+    background-color: #fff;
+    border-radius: 50%; 
+}
+
+.modalHeading{
+    margin-bottom: 1rem;
+}
+@media (min-width: 45em) {
+  .nav {
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    padding-inline: 5rem; 
+  }
+
+  .appOptions{
+    gap: 2rem; 
+  }
+
+  .appOptions li{
+    padding-inline: 1rem; 
+  }
+
+  .body{
+    padding: 5rem; 
+    height: 100%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  .heroImage{
+    max-width: 50vw; 
+  }
+  .modal{
+    left: initial; 
+    translate: 0; 
+    right: 5rem; 
+    top: 7rem; 
+  }
+}

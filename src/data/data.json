@@ -1,0 +1,100 @@
+[
+  {
+    "lastOpened": "1670091859560",
+    "name": "Malcolm X",
+    "yearOfBirth": "1925",
+    "yearOfDeath": "1965",
+    "pronoun": "male",
+    "mainImage": "https://teachingamericanhistory.org/content/uploads/2021/09/Malcolm_X_NYWTS_2a-e1536598367919.jpg",
+    "color": "white",
+    "InspirePage": true,
+    "InspireReasons": [
+      {
+        "id": "reason1",
+        "reason": "willing to make drastic changes for sake of the truth"
+      },
+      {
+        "id": "reason2",
+        "reason": "was an important figure in the Civils Rights Movement"
+      },
+      {
+        "id": "reason3",
+        "reason": "was passionate about the plight of black folk"
+      },
+      { "id": "reason4", "reason": "helped me understand myself" },
+      { "id": "reason5", "reason": "taught himself how to read while in prison" }
+    ],
+    "GalleryPage": true,
+    "GalleryImages": [
+      {
+        "id": "galleryImage1",
+        "galleryImage": "https://www.blackpast.org/wp-content/uploads/prodimages/files/blackpast_images/Malcolm_X_March_26_1964.jpg"
+      },
+      {
+        "id": "galleryImage2",
+        "galleryImage": "https://static.wixstatic.com/media/1bcfab_76e909b165f34898986af186b510717c~mv2.jpg/v1/fill/w_572,h_370,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/malcolm-x.jpg"
+      },
+      {
+        "id": "galleryImage3",
+        "galleryImage": "https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTgzNTYzODYyNzM2MzgxMzQ2/gettyimages-97296114cropped.jpg"
+      },
+      {
+        "id": "galleryImage4",
+        "galleryImage": "https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_small_2x/public/images/contributor/malcolmx_360x450.jpg?itok=3y8-S3xW&timestamp=1409845493"
+      },
+      {
+        "id": "galleryImage5",
+        "galleryImage": "https://static01.nyt.com/images/2020/11/15/books/review/20Jeffries/20Jeffries-superJumbo.jpg"
+      },
+      {
+        "id": "galleryImage6",
+        "galleryImage": "https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2020/05/Screen-Shot-2020-05-18-at-3.03.05-PM.png"
+      },
+      {
+        "id": "galleryImage7",
+        "galleryImage": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_37/3410610/200908-malcolm-x-ew-438p-3410610.jpg"
+      }
+    ],
+    "VideosPage": true,
+    "VideoLinks": [
+      {
+        "id": "video1",
+        "videoLink": "https://www.youtube.com/watch?v=E8PBrhFN35c"
+      },
+      {
+        "id": "video2",
+        "videoLink": "https://www.youtube.com/watch?v=FZMrti8QcPA"
+      },
+      {
+        "id": "video3",
+        "videoLink": "https://www.youtube.com/watch?v=8woU9Rq0cPI"
+      },
+      {
+        "id": "video4",
+        "videoLink": "https://www.youtube.com/watch?v=eWjIkhMZu7s"
+      },
+
+      {
+        "id": "video5",
+        "videoLink": "https://www.youtube.com/watch?v=k7MP_h3eQ1o"
+      }
+    ],
+    "ArticlesPage": true,
+    "ArticleLinks": [
+      {
+        "id": "article1",
+        "articleLink": "https://www.britannica.com/biography/Malcolm-X"
+      },
+      {
+        "id": "article2",
+        "articleLink": "https://www.history.com/topics/black-history/malcolm-x"
+      },
+      {
+        "id": "article3",
+        "articleLink": "https://kinginstitute.stanford.edu/encyclopedia/malcolm-x"
+      }
+    ],
+    "CustomPage": false,
+    "CustomPages": []
+  }
+]
