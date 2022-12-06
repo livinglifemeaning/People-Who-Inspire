@@ -2,10 +2,10 @@ import { useBoardContext } from "../../contexts/BoardContext";
 import { useRef } from "react";
 import PageLayout from "./PageLayout";
 import Draggable from "react-draggable";
-import classes from "../../styles/Pages.module.css"
+import classes from "../../styles/Pages.module.css";
 
-
-const InspireReasons = ({currentBoard}) => {
+const InspireReasons = ({ currentBoard }) => {
+  const draggableRef = useRef({});
   const reasonsArray = currentBoard.InspireReasons;
   const reasons = [];
   const generateStyles = () => {
@@ -35,11 +35,14 @@ const InspireReasons = ({currentBoard}) => {
   }
 
   return reasons.map((reason, i) => {
-    const draggableRef = useRef();
     return (
-      <Draggable key={reason.id} position={null} nodeRef={draggableRef}>
+      <Draggable
+        key={reason.id}
+        position={null}
+        nodeRef={draggableRef.current[i]}
+      >
         <p
-          ref={draggableRef}
+          ref={(element) => (draggableRef.current[i] = element)}
           className={`${classes.reason} ${
             i % 2 === 0 ? classes.primary : classes.secondary
           }`}
@@ -57,10 +60,18 @@ const InspirePage = () => {
   return (
     <PageLayout>
       <h1 className={classes.inspireHeading}>
-        {currentBoard.name} inspires me because {currentBoard.pronoun === "male" ? "he" : currentBoard.pronoun === "female" ? "she" : currentBoard.pronoun === "they" ? "they" : ""}...
+        {currentBoard.name} inspires me because{" "}
+        {currentBoard.pronoun === "male"
+          ? "he"
+          : currentBoard.pronoun === "female"
+          ? "she"
+          : currentBoard.pronoun === "they"
+          ? "they"
+          : ""}
+        ...
       </h1>
       <div className={classes.inspireBox}>
-        <InspireReasons currentBoard={currentBoard}/>
+        <InspireReasons currentBoard={currentBoard} />
       </div>
     </PageLayout>
   );
