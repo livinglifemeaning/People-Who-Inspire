@@ -1,4 +1,5 @@
 # People Who Inspire Me
+My first web application I made entirely myself, from conception, to design, to code! 
 
 ## Features
 - Users can sign up with Google or with email and password, authenticated with Firebase
