@@ -16,7 +16,7 @@ My first web application I made entirely myself, from conception, to design, to 
 ***
 - Users can delete and edit boards within account settings and also delete their account, which will remove their account as well as their data from Firebase
 
-![Account Settings](https://i.ibb.co/BzYz6yZ/manage-boards.png) 
+![Account Settings](https://i.ibb.co/Fwnp4NP/manage-boards.png)
 
 ## Known Issues
 
