@@ -4,15 +4,15 @@
 - Users can sign up with Google or with email and password, authenticated with Firebase
 
 ![Sign in ](https://i.ibb.co/7rjwZ8f/sign-in.png)
-
+***
 - Users can create boards about people who inspire them, with their data stored under a unique id only they can access, via Firebase's Realtime Database
 
 ![Homepage](https://i.ibb.co/NVdGxJ2/homescreen.png)
-
+***
 - Users add a new board or edit a current board by filling out a form 
 
 ![Form](https://i.ibb.co/LNdch7G/form.png)
-
+***
 - Users can delete and edit boards within account settings and also delete their account, which will remove their account as well as their data from Firebase
 
 ![Account Settings](https://i.ibb.co/BzYz6yZ/manage-boards.png) 
