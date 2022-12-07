@@ -10,7 +10,7 @@ My first web application I made entirely myself, from conception, to design, to 
 
 ![Homepage](https://i.ibb.co/NVdGxJ2/homescreen.png)
 ***
-- Users add a new board or edit a current board by filling out a form 
+- Users add a new board or edit a current board by filling out a form. The board will be prefilled with existing data if its being edited, and form actions are handled within a reducer. 
 
 ![Form](https://i.ibb.co/LNdch7G/form.png)
 ***
